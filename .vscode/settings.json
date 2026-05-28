@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Java/socket1/jakarta.websocket-api-2.3.0-M2.jar",
+        "Java/socket1/jakarta.websocket-client-api_2.2.0.jar",
+        "Java/socket1/jakarta.websocket-api-2.2.0.jar"
+    ]
+}
