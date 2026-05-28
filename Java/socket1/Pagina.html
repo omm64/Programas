@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket con Java</title>
+</head>
+<body>
+    <h2>WebSocket en el Navegador</h2>
+    <input type="text" id="mensajeInput" placeholder="Escribe un mensaje...">
+    <button onclick="enviarMensaje()">Enviar</button>
+    <p id="salida"></p>
+
+    <script>
+        // Conexión al servidor Java (ajusta el puerto según tu servidor, ej. 8080)
+        const ws = new WebSocket("ws://localhost:8080/tu-app/ws/endpoint");
+
+        ws.onopen = function() {
+            console.log("Conectado al servidor.");
+        };
+
+        ws.onmessage = function(evento) {
+            document.getElementById("salida").innerText = evento.data;
+        };
+
+        function enviarMensaje() {
+            const input = document.getElementById("mensajeInput").value;
+            ws.send(input);
+        }
+    </script>
+</body>
+</html>
