@@ -14,7 +14,7 @@ import java.util.zip.GZIPOutputStream;
 public class ServidorConsola3 {
 
     public static void main(String[] args) {
-        int puerto = 8080;
+        int puerto = 8088;
         try {
             HttpServer servidor = HttpServer.create(new InetSocketAddress(puerto), 0);
 

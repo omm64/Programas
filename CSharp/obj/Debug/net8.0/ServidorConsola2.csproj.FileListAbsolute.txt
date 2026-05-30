@@ -1,0 +1,15 @@
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.AssemblyInfoInputs.cache
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.AssemblyInfo.cs
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.csproj.CoreCompileInputs.cache
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.sourcelink.json
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\bin\Debug\net8.0\ServidorConsola2.exe
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\bin\Debug\net8.0\ServidorConsola2.deps.json
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\bin\Debug\net8.0\ServidorConsola2.runtimeconfig.json
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\bin\Debug\net8.0\ServidorConsola2.dll
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\bin\Debug\net8.0\ServidorConsola2.pdb
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.dll
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\refint\ServidorConsola2.dll
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.pdb
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ServidorConsola2.genruntimeconfig.cache
+C:\Aplicaciones\PROYECTOS\Programas\CSharp\obj\Debug\net8.0\ref\ServidorConsola2.dll

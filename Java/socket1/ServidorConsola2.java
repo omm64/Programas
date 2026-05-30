@@ -19,7 +19,7 @@ import java.nio.charset.StandardCharsets;
 public class ServidorConsola2 {
 
     public static void main(String[] args) {
-        int puerto = 8080;
+        int puerto = 8088;
         try {
             // Creamos un servidor HTTP nativo de Java en el puerto 8080
             HttpServer servidor = HttpServer.create(new InetSocketAddress(puerto), 0);

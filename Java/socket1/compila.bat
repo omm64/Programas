@@ -42,3 +42,7 @@ exit /b 0
 echo [ERROR] Falta el nombre del archivo o la extension.
 echo.
 pause
+
+javac -encoding UTF-8 -cp ".;jakarta.websocket-api-2.2.0.jar;jakarta.websocket-client-api-2.2.0.jar" ServidorConsola4.java core\*.java handlers\*.java  
+jar cfe ServidorConsola4.jar ServidorConsola4 *.class core\*.class handlers\*.class
+java -jar ServidorConsola4.jar

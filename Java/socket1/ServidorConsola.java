@@ -1,4 +1,3 @@
-
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
@@ -10,10 +9,10 @@ import java.net.InetSocketAddress;
 import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 
-public class ServidorConsola2 {
+public class ServidorConsola {
 
     public static void main(String[] args) {
-        int puerto = 8080;
+        int puerto = 8088;
         try {
             // Corrección de la errata: 'pu puerto' cambiado a 'puerto'
             HttpServer servidor = HttpServer.create(new InetSocketAddress(puerto), 0);
