@@ -37,8 +37,7 @@ public class ServidorConsola4 {
             Executors.newFixedThreadPool(
                 maxThreads);
 
-        ServerSocket server =
-            new ServerSocket(port);
+        ServerSocket server = new ServerSocket(port);
 
         Logger.info(
             "Servidor iniciado puerto "

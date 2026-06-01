@@ -45,4 +45,11 @@ pause
 
 javac -encoding UTF-8 -cp ".;jakarta.websocket-api-2.2.0.jar;jakarta.websocket-client-api-2.2.0.jar" ServidorConsola4.java core\*.java handlers\*.java  
 jar cfe ServidorConsola4.jar ServidorConsola4 *.class core\*.class handlers\*.class
+hay que crear el manifiesto para el jar se ejecura en directorio Java
+cd C:\Aplicaciones\PROYECTOS\Programas\java
+[System.IO.File]::WriteAllLines("manifest.txt", @("Main-Class: Java.ServidorConsola4.ServidorConsola4", ""))
+jar cvfm ServidorConsola4.jar manifest.txt Java/ServidorConsola4/*.class
+
 java -jar ServidorConsola4.jar
+igual ejecuta 
+java 
